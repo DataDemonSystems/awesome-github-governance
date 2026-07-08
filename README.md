@@ -6,6 +6,17 @@ This guide explains why GitHub governance becomes difficult as an engineering or
 
 It is written for CTOs, platform engineers, DevOps engineers, GitHub organization administrators, security engineers, and SOC 2 / ISO 27001 consultants who need to understand the problem before choosing a tool.
 
+## Document Pack
+
+This repository is intended to work as a reference pack, not only a single README.
+
+- [GitHub governance tooling comparison](docs/tooling-comparison.md)
+- [Terraform for GitHub governance](docs/terraform-vs-github-governance.md)
+- [safe-settings for GitHub policy-as-code](docs/safe-settings-vs-github-governance.md)
+- [github-org-manager and YAML-based org management](docs/github-org-manager-vs-github-governance.md)
+- [GitHub access audit scanners and reports](docs/access-audit-scanners.md)
+- [References](docs/references.md)
+
 ## Why GitHub Governance Matters
 
 GitHub is often introduced as a code hosting platform. In a small company, that description is mostly sufficient. A few people create repositories, add collaborators, grant team access, and keep enough context in their heads to know who owns what.
@@ -398,4 +409,3 @@ GitHub should be treated as production infrastructure because it controls more t
 It controls who can see private code, who can change services, who can alter automation, who can influence deployments, and whether the organization can prove that access is intentional.
 
 Good GitHub governance makes that control model visible.
-
